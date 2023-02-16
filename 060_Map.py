@@ -9,4 +9,4 @@ to_dollars = lambda store : (store[0], round(store[1] / 82.653, 2))
 store_dollars = list(map(to_dollars, store))
 
 for item in store_dollars:
-    print(item)
+   print(item)
